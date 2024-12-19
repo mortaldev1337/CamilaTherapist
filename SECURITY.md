@@ -9,28 +9,6 @@ Given the early stage of the project, we currently only support the latest versi
 | 0.0.x   | :white_check_mark: |
 | < 0.0.1 | :x:                |
 
-## Reporting a Vulnerability
-
-We take the security of Eliza seriously. If you believe you have found a security vulnerability, please report it to us following these steps:
-
-### Private Reporting Process
-
-1. **DO NOT** create a public GitHub issue for the vulnerability
-2. Send an email to security@eliza.builders with:
-    - A detailed description of the vulnerability
-    - Steps to reproduce the issue
-    - Potential impact of the vulnerability
-    - Any possible mitigations you've identified
-
-### What to Expect
-
--   **Initial Response**: Within 48 hours, you will receive an acknowledgment of your report
--   **Updates**: We will provide updates every 5 business days about the progress
--   **Resolution Timeline**: We aim to resolve critical issues within 15 days
--   **Disclosure**: We will coordinate with you on the public disclosure timing
-
-## Security Best Practices
-
 ### For Contributors
 
 1. **API Keys and Secrets**
@@ -78,48 +56,4 @@ We take the security of Eliza seriously. If you believe you have found a securit
 -   Automated dependency updates via Renovate
 -   Continuous Integration security checks
 
-### Planned Improvements
 
-1. **Q4 2024**
-
-    - Automated security scanning in CI pipeline
-    - Enhanced rate limiting implementation
-    - Improved audit logging
-
-2. **Q1 2025**
-    - Security-focused documentation improvements
-    - Enhanced platform permission management
-    - Automated vulnerability scanning
-
-## Vulnerability Disclosure Policy
-
-We follow a coordinated disclosure process:
-
-1. Reporter submits vulnerability details
-2. Our team validates and assesses the report
-3. We develop and test a fix
-4. Fix is deployed to supported versions
-5. Public disclosure after 30 days or by mutual agreement
-
-## Recognition
-
-We believe in recognizing security researchers who help improve our security. Contributors who report valid security issues will be:
-
--   Credited in our security acknowledgments (unless they wish to remain anonymous)
--   Added to our security hall of fame
--   Considered for our bug bounty program (coming soon)
-
-## License Considerations
-
-As an MIT licensed project, users should understand:
-
--   The software is provided "as is"
--   No warranty is provided
--   Users are responsible for their own security implementations
--   Contributors grant perpetual license to their contributions
-
-## Contact
-
--   Security Issues: security@eliza.builders
--   General Questions: Join our [Discord](https://discord.gg/ai16z)
--   Updates: Follow our [security advisory page](https://github.com/ai16z/eliza/security/advisories)
