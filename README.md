@@ -7,8 +7,9 @@ Camila is an empathetic AI agent designed to help couples improve their relation
 - **Couples Chat Interface:** Supports two users in a shared chat environment with Camila as the mediator.
 - **Emotional Intelligence:** Offers calming responses and empathetic listening.
 - **Relationship Advice:** Delivers professional-grade counseling tailored to individual needs.
-- **Future Expansion:** Modular design for video call capabilities.
-
+- **Future Expansion:** Video Calls: Real-time therapy sessions facilitated through Jitsi, a robust and scalable open-source video conferencing platform designed for high-quality communication and seamless integration.
+- Advanced Natural Language Understanding: Enhancing Camila’s ability to process and comprehend spoken conversations in real-time. This feature will enable seamless interaction during video calls, allowing Camila to provide thoughtful and context-aware responses to spoken dialogue.
+  
 ## Setup Instructions
 1. Clone the repository:
    ```bash
